@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.barra-navegacao {
+    
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-bottom: 3px solid #000000;
+}
+
+.barra-navegacao header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barra-navegacao img {
+    width: 50px;
+    height: 50px;
+}
+
+.barra-navegacao nav a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.barra-navegacao nav a:hover{
+    color: rgb(72, 124, 124);
+}
+body {
+    background-image: url(./dev.avif);
+    background-size: cover;
+}
+
+.sobre-mim {
+    height: 500px;
+    width: 200px;
+    background-color: aqua;
+    margin-top: 100px;
+    padding: 10px;
+    margin-left: 1100px;
+    border-radius: 7px;
+    margin-bottom: 50px;
+
+}
+
+.sobre-mim h2 {
+    color: #333;
+  }
+  
+  .sobre-mim p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+
+ 
+  .container{
+    
+    height: 100px;
+    background-color: #313030;
+    border-top: 3px solid #000000;
+  }
+  .container p {
+    color: #bbb3b3;
+    text-align: center;
+    
+    
+  }
+  .container img {
+    margin-left: 625px;
+    align-items: center;
+    max-width: 7%;
+    height: auto;
+  }
+ 
+  h1{
+    margin-top: 10px;
+    color: aqua;
+    margin-left: 250px;
+  }
+
+  strong {
+    border-radius:5px;
+    list-style-type: none;
+    color: aqua;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  span{ 
+    color: rgb(8, 247, 48);
+  }
+
+  li{
+    padding: 10px;
+    color: #000000;
+    text-align: center;
+    font-size: 20pxpx;
+  }
+
+  ul {
+    margin-top: 5px;
+    background-color: #666;
+    margin-left: 800px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+    border: solid 2px black;
+    
+  }
+
+  hr {
+    margin-top: 10px;
+  }
+
+  main p{
+    margin-top: 20px;
+    color: rgb(6, 243, 243);
+    margin-left: 30px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+
+  main span {
+    color: #000000;
+    font-size: 25px;
+  }
+
+  main img {
+    margin-top: -10px;
+    max-width: 50%;
+    margin-left: 30px;
+  }
+
+  li span {
+    font-size: 15px;
+  }
+
+
